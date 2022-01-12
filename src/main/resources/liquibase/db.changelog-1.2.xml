@@ -33,11 +33,11 @@
                 <constraints nullable="false"/>
             </column>
 
-            <column name="created" type="TIMESTAMP">
+            <column name="created" type="TIMESTAMP" defaultValue="ClOCK_TIMESTAMP()">
                 <constraints nullable="false"/>
             </column>
 
-            <column name="updated" type="TIMESTAMP">
+            <column name="updated" type="TIMESTAMP" defaultValue="ClOCK_TIMESTAMP()">
                 <constraints nullable="false"/>
             </column>
         </createTable>
@@ -57,11 +57,11 @@
                 <constraints nullable="false"/>
             </column>
 
-            <column name="created" type="TIMESTAMP">
+            <column name="created" type="TIMESTAMP" defaultValue="ClOCK_TIMESTAMP()">
                 <constraints nullable="true"/>
             </column>
 
-            <column name="updated" type="TIMESTAMP">
+            <column name="updated" type="TIMESTAMP" defaultValue="ClOCK_TIMESTAMP()">
                 <constraints nullable="true"/>
             </column>
 
